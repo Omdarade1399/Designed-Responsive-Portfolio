@@ -1,107 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Urbanist', sans-serif;
 }
 
-body{
-    height: 100vh;
-    background: linear-gradient(to bottom, #283c86, #45a247);
-    position: relative;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.card{
-    background:  linear-gradient(to top, #8360c3, #2ebf91);
-    height: 55vh;
-    width: 55vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 25px;
-    box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.5);
-    z-index: 5;
+h1,h2,,h3,h4,h5{
+    font-family: 'Lexend', sans-serif;
+    color: #1a1d20;
 }
 
 h1{
-    font-family: 'Dancing Script', cursive;
-    text-shadow: 1px 0px 3px rgba(255, 255, 255, 1);
-    margin: 5px;
-    font-size: 50px;
+    font-size: 3.8rem;
 }
 
 h2{
-    font-family: 'Dancing Script', cursive;
-    text-shadow: 0px 1px 3px rgba(255, 255, 255, 0.7);
-    font-size: 40px;
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
 }
 
 p{
-    font-size: 23px;
-    padding: 15px;
-    text-align: right;
-    margin-right: 10px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #1a1d20;
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
 }
 
-
-h4{
-    font-family: 'Caveat', cursive;
-    margin: 20px;
-    font-size: 35px;
-    font-weight: 500;
-    word-spacing: 1px;
-    letter-spacing: 0.2px;
+.text-grey{
+    color: #c6c6c6;
 }
 
-.another-card1{
-    background:  linear-gradient(to top, #8360c3, #2ebf91);
-    width: 150px;
-    height: 150px;
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+button, a{
+    font-size: 1.15rem !important;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+}
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: #29a9fd !important;
+}
+
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+
+.bg-color{
+    background-color: #1c1c1c;
+}
+
+.bg-theme{
+    color: #c850c0;
+    background-image: none !important;
+}
+
+.hero-image--section{
+    width: 45%;
+    border-radius: 2rem;
+}
+
+.custom-shape-divider-bottom-1706975224 {
     position: absolute;
-    top: 130px;
-    left: 250px;
-    box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 100% 0% 100% 0% / 100% 0% 100% 0% ;
-    z-index: 6;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
 }
 
-.another-card2{
-    background:  linear-gradient(to top, #8360c3, #2ebf91);
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: 130px;
-    right: 250px;
-    box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100% ;
-    z-index: 7;
+.custom-shape-divider-bottom-1706975224 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 95px;
+    transform: rotateY(180deg);
 }
 
-.another-card3{
-    background:  linear-gradient(to top, #8360c3, #2ebf91);
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    bottom: 130px;
-    left: 250px;
-    box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100% ;
-    z-index: 8;
-}
-
-.another-card4{
-    background:  linear-gradient(to top, #8360c3, #2ebf91);
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    bottom: 130px;
-    right: 250px;
-    box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 100% 0% 100% 0% / 100% 0% 100% 0% ;
-    z-index: 9;
+.custom-shape-divider-bottom-1706975224 .shape-fill {
+    fill: #FFFFFF;
 }
 
