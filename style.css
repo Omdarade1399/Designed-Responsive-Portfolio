@@ -20,7 +20,7 @@ h1{
 }
 
 h2{
-    line-height: 3rem;
+    line-height: 4rem;
     font-weight: 600;
     font-size: 3.4rem;
 }
@@ -54,6 +54,16 @@ button, a{
     word-spacing: .1rem;
 }
 
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem !important;
+}
+
+.commen-title{
+    margin-bottom: 4.2rem;
+}
+
 .nav-link{
     color: white;
     font-weight: bold;
@@ -78,6 +88,10 @@ button, a{
     background-color: #1c1c1c;
 }
 
+.common-section{
+    padding: 0 0 9rem 0;
+}
+
 .bg-theme{
     color: #c850c0;
     background-image: none !important;
@@ -88,7 +102,7 @@ button, a{
     border-radius: 2rem;
 }
 
-.custom-shape-divider-bottom-1706975224 {
+.custom-shape-divider-bottom-1708242453 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -98,15 +112,78 @@ button, a{
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1706975224 svg {
+.custom-shape-divider-bottom-1708242453 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 95px;
-    transform: rotateY(180deg);
+    height: 115px;
 }
 
-.custom-shape-divider-bottom-1706975224 .shape-fill {
+.custom-shape-divider-bottom-1708242453 .shape-fill {
     fill: #FFFFFF;
 }
+
+.service-section{
+    padding: 6rem 0 3rem 0 !important;
+}
+
+.icon-span{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color:#29a9fd;
+    color: #fff;
+}
+
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.5) 0 8px 24px;
+}
+
+.sec-img{
+    width: 270px;   
+    margin-left: 150px;
+}
+
+.more-info-section{
+    background-image: linear-gradient(rgba(22, 22, 22, 0.8), rgba(22, 22, 22, 0.8)), url(https://wallpaperaccess.com/full/1878568.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+}
+
+.carousel .card{
+    background-color: #262631;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+.carousel-inner .card p{
+    color: #fff;
+}
+
+.carousel-inner .card:hover{
+    background-color: #fff;
+    color: #1a1d20;
+}
+
+.carousel-inner .card:hover p{  
+    color: #1a1d20;
+}
+
+.fa-star{
+    color: #c850c0;
+}
+
+.carousel-indicators{
+    bottom: -30%;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: .7rem;
+    height: .7rem;
+    background-color: #29a9fd;
+}
+
 
